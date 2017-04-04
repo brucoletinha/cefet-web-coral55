@@ -1,2 +1,81 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#cabecalho{
+     text-align: right;
+     margin-right: 60px;
+ }
+
+#cabecalho h1{
+	color: #e90c0c;
+	font-size: 36px;
+	font-family: 'Ravie';
+}
+
+#cabecalho h2{
+	color: #333;
+	font-size: 24px;
+	font-family: 'Trebutchet MS';
+	font-style: normal;
+}
+
+#cabecalho em{
+	color: #d027aa;
+	font-size: 24px;
+	font-family: 'Trebutchet MS';
+	font-style: normal;
+}
+
+#recipiente {
+	background-image: linear-gradient(180deg,#f6f1b2,#4599b2);
+	border-left: 1px solid;
+	border-color: #d3d3d3;
+	margin: auto;
+	width: 850px;
+	position: relative;
+}
+
+#cardapio {
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #aac0ae;
+	width: 646px;
+	position: absolute;
+	right: 0;
+	top: 105px;
+	background-color: rgba(255,255,255,0.2);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#cardapio p{
+	font-family: 'Verdana';
+	font-size: 14px;
+	color: #333;
+}
+
+#cardapio h3{
+	font-family: 'Verdana';
+	font-size: 18px;
+	font-style: bold;
+	color: #333;
+}
+
+#cardapio span{
+	float: right;
+}
+
+#lateral{
+	top: 0;
+	bottom: 0;
+ 	width: 160px;
+}
+
+#lateral h2{
+	font-family: 'Verdana';
+	font-size: 48px;
+	font-style: bold;
+	color: #333;
+	transform: rotate(270deg);
+}
